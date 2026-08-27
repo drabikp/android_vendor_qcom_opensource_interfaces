@@ -52,7 +52,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 package vendor.qti.hardware.bluetooth.audio;
 @Backing(type="int") @VintfStability
 enum VendorCodecType {
-  LC3Q = 0,
-  APTX_ADAPTIVE_R3 = 1,
-  APTX_ADAPTIVE_R4 = 2,
+  LC3Q,
+  APTX_ADAPTIVE_R3,
+  APTX_ADAPTIVE_R4,
 }
